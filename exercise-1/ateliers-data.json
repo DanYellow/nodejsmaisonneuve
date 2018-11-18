@@ -1,0 +1,9 @@
+[
+  {"_id":"5a68fdc3615eda645bc6bdec","sujets":["express","serveur HTTP"],"date":"2018-10-20T00:00:00.001Z","nom":"Atelier Express.js","auteur":"Rostom","disponible":true,"prix":10,"__v":0},
+  {"_id":"5a68fdd7bee8ea64649c2777","sujets":["node","npm"],"date":"2018-10-20T00:00:00.002Z","nom":"Atelier Node.js","auteur":"Rostom","disponible":true,"prix":25,"__v":0},
+  {"_id":"5a68fde3f09ad7646ddec17e","sujets":["java","classe"],"date":"2018-10-20T00:00:00.003Z","nom":"Atelier Java","auteur":"Rostom","disponible":true,"prix":15,"__v":0},
+  {"_id":"5a68fdf95db93f6477053ddd","sujets":["react","render"],"date":"2018-10-20T00:00:00.004Z","nom":"Atelier React","auteur":"Rostom","disponible":false,"prix":13,"__v":0},
+  {"_id":"5a68fe2142ae6a6482c4c9cb","sujets":["node","npm"],"date":"2018-10-20T00:00:00.005Z","nom":"Atelier Node.js par Xavier","auteur":"Xavier","disponible":true,"prix":15,"__v":0},
+  {"_id":"5a68ff090c553064a218a547","sujets":["node","npm"],"date":"2018-10-20T00:00:00.006Z","nom":"Atelier Node.js par Nadia","auteur":"Nadia","disponible":false,"prix":15,"__v":0},
+  {"_id":"5a6900fff467be65019a9001","sujets":["angular","component"],"date":"2018-10-20T00:00:00.007Z","nom":"Atelier Angular","auteur":"Rostom","disponible":true,"prix":17,"__v":0}
+]
