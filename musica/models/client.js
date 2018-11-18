@@ -2,9 +2,9 @@ const mongoose = require('mongoose');
 
 const clientSchema = new mongoose.Schema({
   nom: String,
-  telephone: String,
-  privilege: {
-    type: [String],
+  privilege: Boolean,
+  telephone: {
+    type: String,
     validate: {
       validator: function(value) {
         return value && value.match(/^[\d]{3}-[\d]{3}-[\d]{4}$/);

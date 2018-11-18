@@ -1,25 +1,21 @@
 const router = require(`express`).Router();
 
-const { Categorie } = require('../models');
+const { Client } = require('../models');
 
 router.get(`/`, async (_, res) => {
-  let categories = await Categorie.find();
+  let clients = await Client.find();
 
-  res.send(categories);
+  res.send(clients);
 });
 
 router.post(`/`, async (req, res) => {
-  const {
-    body: { name = 'Hello' },
-  } = req;
+  const { body = { name: 'Hello' } } = req;
 
-  const newCateory = new Categorie({
-    nom: name,
-  });
+  const newClient = new Client(body);
 
-  await newCateory.save();
+  await newClient.save();
 
-  res.send(newCateory);
+  res.send(newClient);
 });
 
 router.get(`/:id`, async (req, res) => {
